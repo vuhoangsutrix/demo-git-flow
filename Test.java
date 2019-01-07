@@ -1,4 +1,5 @@
 private By getByElement(String objectName) throws Exception {
+		MASTER____________NEW LINE
 		if (null != ReadProperties.get(objectName + "-id")) {
 			return (By.id(ReadProperties.get(objectName + "-id")));
 		} else if (null != ReadProperties.get(objectName + "-xp")) {
@@ -14,5 +15,7 @@ private By getByElement(String objectName) throws Exception {
 		} else if (null != ReadProperties.get(objectName + "-tag")) {
 			return (By.tagName(ReadProperties.get(objectName + "-tag")));
 		} else if (null != ReadProperties.get(objectName + "-name")) {
-			return (By.name(ReadProperties.get(objectName + "-name")));
+			MASTER____________EDIT LINE
 		} else {
+			MASTER____________NEW LINE
+		}
