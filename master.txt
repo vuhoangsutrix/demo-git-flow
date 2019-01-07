@@ -6,7 +6,7 @@ private By getByElement(String objectName) throws Exception {
 		Developer_Developer_Developer_Developer_Developer_Developer_Developer_Developer_Developer_Developer_Developer_Developer
 
 		if (null != ReadProperties.get(objectName + "-id")) {
-			return (By.id(ReadProperties.get(objectName + "-id")));
+			return (By.id(ReadProperties.get(objectName + "-Developer")));
 		} else if (null != ReadProperties.get(objectName + "-xp")) {
 			return (By.xpath(ReadProperties.get(objectName + "-xp")));
 		} else if (null != ReadProperties.get(objectName + "-css")) {
@@ -20,8 +20,8 @@ private By getByElement(String objectName) throws Exception {
 		} else if (null != ReadProperties.get(objectName + "-tag")) {
 			return (By.tagName(ReadProperties.get(objectName + "-tag")));
 		} else if (null != ReadProperties.get(objectName + "-name")) {
-			Master__Master__Master__Master__Master__Master__Master__Master__
-			Master__Master__Master__Master__Master__Master__Master__Master__
+			Master__Master__2222222222222222222222222__Master__Master__
+			Master__Master__Master33333333333333333333Master__Master__Master__Master__Master__
 		} else {
 			try {
 				if (driverAn.findElement(By.linkText(objectName)).isDisplayed()) {
