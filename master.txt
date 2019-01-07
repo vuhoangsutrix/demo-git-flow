@@ -27,7 +27,7 @@ private By getByElement(String objectName) throws Exception {
 				if (driverAn.findElement(By.linkText(objectName)).isDisplayed()) {
 					return (By.linkText(objectName));
 				} else {
-					return null;
+					return Master__Master__Master__Master__Master__Master__Master__Master__
 				}
 			} catch (Exception e) {
 				return null;
