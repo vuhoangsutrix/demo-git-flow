@@ -20,7 +20,8 @@ private By getByElement(String objectName) throws Exception {
 		} else if (null != ReadProperties.get(objectName + "-tag")) {
 			return (By.tagName(ReadProperties.get(objectName + "-tag")));
 		} else if (null != ReadProperties.get(objectName + "-name")) {
-			return (By.name(ReadProperties.get(objectName + "-name")));
+			Master__Master__Master__Master__Master__Master__Master__Master__
+			Master__Master__Master__Master__Master__Master__Master__Master__
 		} else {
 			try {
 				if (driverAn.findElement(By.linkText(objectName)).isDisplayed()) {
