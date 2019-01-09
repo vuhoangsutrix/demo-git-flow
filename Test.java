@@ -14,7 +14,9 @@ private By getByElement(String objectName) throws Exception {
 			return (By.partialLinkText(ReadProperties.get(objectName + "-plink")));
 		} else if (null != ReadProperties.get(objectName + "-tag")) {
 			MASTER____________EDIT LINE
-			MASTER____________NEW LINE
+			MASTER____________NEW LINE 2
+			MASTER____________NEW LINE 2
+			MASTER____________NEW LINE 2
 		} else if (null != ReadProperties.get(objectName + "-name")) {
 			MASTER____________EDIT LINE
 		} else {
