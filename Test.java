@@ -1,4 +1,5 @@
 private By getByElement(String objectName) throws Exception {
+		MASTER____________NEW LINE
 		if (null != ReadProperties.get(objectName + "-id")) {
 			return (By.id(ReadProperties.get(objectName + "-id")));
 		} else if (null != ReadProperties.get(objectName + "-xp")) {
@@ -12,7 +13,10 @@ private By getByElement(String objectName) throws Exception {
 		} else if (null != ReadProperties.get(objectName + "-plink")) {
 			return (By.partialLinkText(ReadProperties.get(objectName + "-plink")));
 		} else if (null != ReadProperties.get(objectName + "-tag")) {
-			return (By.tagName(ReadProperties.get(objectName + "-tag")));
+			DEV01____________EDIT LINE 2
+			DEV01____________EDIT LINE 2
+			DEV01____________EDIT LINE 2
+			DEV01____________EDIT LINE 2
 		} else if (null != ReadProperties.get(objectName + "-name")) {
 			DEV01____________EDIT LINE
 		} else {
