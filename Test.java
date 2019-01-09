@@ -13,7 +13,8 @@ private By getByElement(String objectName) throws Exception {
 		} else if (null != ReadProperties.get(objectName + "-plink")) {
 			return (By.partialLinkText(ReadProperties.get(objectName + "-plink")));
 		} else if (null != ReadProperties.get(objectName + "-tag")) {
-			return (By.tagName(ReadProperties.get(objectName + "-tag")));
+			MASTER____________EDIT LINE
+			MASTER____________NEW LINE
 		} else if (null != ReadProperties.get(objectName + "-name")) {
 			MASTER____________EDIT LINE
 		} else {
