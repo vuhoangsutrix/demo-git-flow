@@ -13,12 +13,12 @@ private By getByElement(String objectName) throws Exception {
 		} else if (null != ReadProperties.get(objectName + "-plink")) {
 			return (By.partialLinkText(ReadProperties.get(objectName + "-plink")));
 		} else if (null != ReadProperties.get(objectName + "-tag")) {
-			MASTER____________EDIT LINE
-			MASTER____________NEW LINE 2
-			MASTER____________NEW LINE 2
-			MASTER____________NEW LINE 2
+			DEV01____________EDIT LINE AFTER MERGE 2
+			DEV01____________EDIT LINE AFTER MERGE 2
+			DEV01____________EDIT LINE AFTER MERGE 2
+			MASTER____________NEW LINE AFTER MERGE 2
 		} else if (null != ReadProperties.get(objectName + "-name")) {
-			MASTER____________EDIT LINE
+			MASTER____________EDIT LINE AFTER MERGE
 		} else {
-			MASTER____________NEW LINE
+			DEV01____________NEW LINE AFTER MERGE
 		}
